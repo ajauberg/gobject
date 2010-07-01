@@ -4,10 +4,10 @@
 
   * gClasses - Stores icons and graphic representation
   * gObjects - Stores physical instances
-  * gLinks - Stores links between 
-  * gStatuses
-  * gLogs
-  * gPerformances
+  * gLinks - Stores links between gObjects
+  * gStatuses - Stores status to be displayed on the links
+  * gLogs - Stores logs from status changes
+  * gPerformances 
   * gProperties
   * gUsers
 
