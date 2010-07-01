@@ -1,0 +1,16 @@
+#summary A description of the PHP files used.
+
+= Introduction =
+
+The following PHP files are used:
+
+ * sync.php - Called at regular intervals to update node and link status
+ * update.php - Called from the wireless nodes with node data
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
