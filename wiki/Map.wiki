@@ -1,0 +1,16 @@
+#summary A description of the Google Maps implementation.
+
+= Introduction =
+
+The file 'index.html' is the only visible interface for the user. The file reads its data from the following files:
+
+  # gObjects.php
+  # gLinks.php
+  # gLogs.php
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
