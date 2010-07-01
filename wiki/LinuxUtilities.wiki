@@ -4,17 +4,17 @@
 
 The following Linux utilities are used to create the HTTP GETs sent to the gObject Management System:
 
- - Linux shell
- - cron
- - ifconfig
- - iwconfig
- - iwlist
- - grep
- - cut
- - sed
- - cat
- - wc
- - wget
+  - Linux shell
+  - cron
+  - ifconfig
+  - iwconfig
+  - iwlist
+  - grep
+  - cut
+  - sed
+  - cat
+  - wc
+  - wget
 
 
 = Details =
