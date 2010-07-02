@@ -9,7 +9,7 @@ The following PHP files are used:
  
  * config.inc.php - Reads the configuration file
  * gObjects.inc.php - A class for reading and updating the gObjects table
- * gLogs.inc.php - A class for adding the
+ * gLogs.inc.php - A class for adding status changes to the gLogs table
  * gProperties.inc.php - 
 
  * gClasses.php - 
