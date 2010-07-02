@@ -19,7 +19,7 @@ The following Linux utilities are used to create the HTTP GETs sent to the gObje
 
 = Details =
 
-
+{{{
 #!/bin/sh
 
 WIFI=ath0
@@ -84,9 +84,4 @@ done < $TMP
 
 #echo $WGET
 wget -O /dev/null "$WGET"
-
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+}}}
