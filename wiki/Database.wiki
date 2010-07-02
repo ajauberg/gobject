@@ -5,11 +5,11 @@
   * gClasses - Stores icons and graphic representation
   * gObjects - Stores physical instances
   * gLinks - Stores links between gObjects
-  * gStatuses - Stores status to be displayed on the links
+  * gStatuses - Stores status parameters controlling the node status, color and inactivity timeouts
   * gLogs - Stores logs from status changes
-  * gPerformances 
-  * gProperties
-  * gUsers
+  * gPerformances - Stores performance parameters controlling the color and width of the links
+  * gProperties - Stores optional gObject parameters
+  * gUsers - Stores users with username and password
 
 
 = Details =
