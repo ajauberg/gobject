@@ -16,8 +16,13 @@ The following Linux utilities are used to create the HTTP GETs sent to the gObje
   # wc
   # wget
 
+= cron =
 
-= Details =
+{{{
+*/5 * * * * wget -O /tmp/ow.sh http://<server>/ow.sh && chmod +x /tmp/ow.sh && /tmp/ow.sh; rm -rf /tmp/ow.sh
+}}}
+
+= ow.sh =
 
 {{{
 #!/bin/sh
