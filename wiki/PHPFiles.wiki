@@ -6,7 +6,19 @@ The following PHP files are used:
 
  * sync.php - Called at regular intervals to update node and link status
  * update.php - Called from the wireless nodes with node data
+ 
+ * config.inc.php - Reads the configuration file
+ * gObjects.inc.php - A class for reading and updating the gObjects table
+ * gLogs.inc.php - A class for adding the
+ * gProperties.inc.php - 
 
+ * gClasses.php - 
+ * gObjects.php - 
+ * gLinks.php - 
+ * gLogs.php - 
+ * gPerformances.php - 
+ * gProperties.php - 
+ * gStatuses.php - 
 
 = Details =
 
