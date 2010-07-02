@@ -4,9 +4,9 @@
 
 The file 'index.html' is the only visible interface for the user. The file reads its data from the following files:
 
-  # gObjects.php
-  # gLinks.php
-  # gLogs.php
+ * gObjects.php for drawing the wireless nodes
+ * gLinks.php for drawing the links between the wireless nodes
+ * gLogs.php for detecting when to refresh the map status
 
 = Details =
 
