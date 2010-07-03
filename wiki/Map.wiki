@@ -10,6 +10,11 @@ The file 'index.html' is the starting point for the user. The file reads its dat
 
 = index.html =
 
+Be sure to have a valid Google Maps key before placing the file below on a new server:
+
+http://code.google.com/intl/no/apis/maps/signup.html
+
+
   # The function "load()" is called when the page is loaded.
   # The function "interval()" is called at a fixed interval.
   # The icon is created with attributes "Image" and "Shadow" from gObjects.
@@ -17,10 +22,6 @@ The file 'index.html' is the starting point for the user. The file reads its dat
   # A clickable window is constructed, containing additional information from gObjects.
   # A polyline is then constructed with attributes Long1, Lat1, Long2, Lat2, HTMLColorCode, Width and Opacity from gLinks.
   # Finally, gLogs is polled every 30 seconds to detect any status changes.
-
-Be sure to have a valid Google Maps key before placing the file below on a new server:
-
-http://code.google.com/intl/no/apis/maps/signup.html
 
 
 {{{
