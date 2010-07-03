@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The following Linux utilities are used to create the HTTP GETs sent to the gObject Management System:
+The following Linux utilities are used to create the HTTP GET sent to the gObject Management System:
 
   # Linux shell is used for running a script
   # `cron` is calling the script at a fixed interval
