@@ -33,8 +33,8 @@ The line below is added to the cron utility using the command 'crontabs -e'. The
 The following script is run on an Ubiquti device, and draws its information from the following Linux utilities:
 
   # ifconfig - Packets, Collisions and Bytes
-  # iwconfig - AP MAC-address, ESSID, Rate
-  # iwlist - MAC-address, Quality, Signal and Noise
+  # iwconfig - Access Point MAC-address, ESSID, Rate
+  # iwlist - Peer MAC-address, Quality, Signal and Noise
 
 Finally the 'wget' utility is used to transfer the constructed string back to the server using a HTTP GET.
 
