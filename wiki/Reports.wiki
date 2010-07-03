@@ -4,7 +4,7 @@
 
 A number of reports can be generated using the [http://jpgraph.net/ JpGraph] library.
 
-The JpGraph library is completely written in PHP, and require parameters to initialize the library classes. These parameters are kept in the following files:
+The [http://jpgraph.net/ JpGraph] library is completely written in PHP, and require parameters to initialize the library classes. These parameters are kept in the following files:
 
  * SNR.jpgraph.php
  * TRX.jpgraph.php
