@@ -4,9 +4,9 @@
 
 The file 'index.html' is the starting point for the user. The file reads its data from the following files:
 
- * `[PHPFiles gObjects.php]` for drawing the wireless nodes
- * [PHPFiles `gLinks.php`] for drawing the links between the wireless nodes
- * [PHPFiles `gLogs.php`] for detecting when to refresh the map status
+ * [PHPFiles gObjects.php] for drawing the wireless nodes
+ * [PHPFiles gLinks.php] for drawing the links between the wireless nodes
+ * [PHPFiles gLogs.php] for detecting when to refresh the map status
 
 = index.html =
 
@@ -16,8 +16,8 @@ http://code.google.com/intl/no/apis/maps/signup.html
 
 The functionality can be described as follows:
 
-  # The function "load()" is called when the page is loaded.
-  # The function "interval()" is called at a fixed interval.
+  # The function *load()* is called when the page is loaded.
+  # The function *interval()* is called at a fixed interval.
   # The icon is created with attributes `Image` and `Shadow` from gObjects.
   # The marker is placed on location determined by attributes `Lat` and `Long` from gObjects.
   # A clickable window is constructed, containing additional information from gObjects.
