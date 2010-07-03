@@ -18,15 +18,10 @@
 -- version 2.11.1
 -- http://www.phpmyadmin.net
 --
--- Generert den: 03. Jul, 2010 klokka 17:45 PM
 -- Tjenerversjon: 5.0.27
 -- PHP-Versjon: 5.1.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
---
--- Database: `ajauberg`
---
 
 -- --------------------------------------------------------
 
@@ -60,15 +55,10 @@ INSERT INTO `gClasses` (`id`, `Name`, `Icon`, `Image`, `Shadow`) VALUES
 -- version 2.11.1
 -- http://www.phpmyadmin.net
 --
--- Generert den: 03. Jul, 2010 klokka 17:48 PM
 -- Tjenerversjon: 5.0.27
 -- PHP-Versjon: 5.1.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
---
--- Database: `ajauberg`
---
 
 -- --------------------------------------------------------
 
@@ -110,15 +100,10 @@ INSERT INTO `gPerformances` (`id`, `Name`, `HTMLColorCode`, `Width`, `Opacity`, 
 -- version 2.11.1
 -- http://www.phpmyadmin.net
 --
--- Generert den: 03. Jul, 2010 klokka 17:49 PM
 -- Tjenerversjon: 5.0.27
 -- PHP-Versjon: 5.1.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
---
--- Database: `ajauberg`
---
 
 -- --------------------------------------------------------
 
@@ -148,3 +133,4 @@ INSERT INTO `gStatuses` (`id`, `Name`, `Color`, `HTMLColorCode`, `MarkerColorCod
 (5, 'Critical', 'Red', '#FF0000', '010', '86400'),
 (6, 'Down', 'Blue', '#000000', '149', '604800');
 }}}
+
