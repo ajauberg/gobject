@@ -10,16 +10,16 @@ The following Linux utilities are used to create the HTTP GETs sent to the gObje
 
  * `ifconfig`, `iwconfig` and `iwlist` is used to retrieve the information
 
- * grep, cut, sed, cat and wc is used to format the information into a HTTP format string
+ * `grep`, `cut`, `sed`, `cat` and `wc` is used to format the information into a HTTP format string
 
- * wget is used to transfer the string back to the server
+ * `wget` is used to transfer the string back to the server
 
 = cron =
 
 The line below is added to the cron utility using the command 'crontabs -e'. The following actions are performed when running the line:
 
-  # The file 'ow.sh' is retrieved from a remote server every 5 minutes
-  # The file is placed in the '/tmp/' directory, and made executable
+  # The file `ow.sh` is retrieved from a remote server every 5 minutes
+  # The file is placed in the `/tmp/` directory, and made executable
   # The file is then executed locally in the unit and finally deleted
 
 {{{
@@ -30,11 +30,13 @@ The line below is added to the cron utility using the command 'crontabs -e'. The
 
 The following script is run on an Ubiquti device, and draws its information from the following Linux utilities:
 
-  # ifconfig - Packets, Collisions and Bytes
-  # iwconfig - Access Point MAC-address, ESSID, Rate
-  # iwlist - Peer MAC-address, Quality, Signal and Noise
+  # `ifconfig` - Packets, Collisions and Bytes
+  # `iwconfig` - Access Point MAC-address, ESSID, Rate
+  # `iwlist` - Peer MAC-address, Quality, Signal and Noise
 
-Finally the 'wget' utility is used to transfer the constructed string back to the server using a HTTP GET.
+ * `grep`, `cut`, `sed`, `cat` and `wc` is used to format the information into a HTTP format string
+
+Finally the `wget` utility is used to transfer the constructed string back to the server using a HTTP GET.
 
 {{{
 #!/bin/sh
