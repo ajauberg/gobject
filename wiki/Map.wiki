@@ -2,13 +2,26 @@
 
 = Introduction =
 
-The file 'index.html' is the only visible interface for the user. The file reads its data from the following files:
+The file 'index.html' is the starting point for the user. The file reads its data from the following files:
 
- * gObjects.php for drawing the wireless nodes
- * gLinks.php for drawing the links between the wireless nodes
- * gLogs.php for detecting when to refresh the map status
+ * `gObjects.php` for drawing the wireless nodes
+ * `gLinks.php` for drawing the links between the wireless nodes
+ * `gLogs.php` for detecting when to refresh the map status
 
 = index.html =
+
+  # The function "load()" is called when the page is loaded.
+  # The function "interval()" is called at a fixed interval.
+  # The icon is created with attributes "Image" and "Shadow" from gObjects.
+  # The marker is placed on location determined by attributes "Lat" and "Long" from gObjects.
+  # A clickable window is constructed, containing additional information from gObjects.
+  # A polyline is then constructed with attributes Long1, Lat1, Long2, Lat2, HTMLColorCode, Width and Opacity from gLinks.
+  # Finally, gLogs is polled every 30 seconds to detect any status changes.
+
+Be sure to have a valid Google Maps key before placing the file below on a new server:
+
+http://code.google.com/intl/no/apis/maps/signup.html
+
 
 {{{
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -80,8 +93,6 @@ The file 'index.html' is the only visible interface for the user. The file reads
                        "<tr><td>RATE:</td> <td><input type='text' id='rate' value='" + gObject.getAttribute("RATE") + "'/> </td> </tr>" +
                        "<tr><td>UPTIME:</td> <td><input type='text' id='uptime' value='" + gObject.getAttribute("UPTIME") + "'/> </td> </tr>" +
                        "<tr><td>Last Contact:</td> <td><input type='text' id='lastcontact' value='" + gObject.getAttribute("LastContact") + "'/></td> </tr> </table>";
-//            marker.openInfoWindowHtml("<b>" + gObject.getAttribute("Name") + "</b>" +
-//				       "<p>Last Contact : " + gObject.getAttribute("LastContact") + "</p>");
             marker.openInfoWindowHtml(html);
           });
           return marker;
