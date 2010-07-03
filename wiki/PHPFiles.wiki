@@ -20,9 +20,9 @@ The following PHP files are used:
  * gProperties.php - Returns an XML formatted file containing information from the gProperties table
  * gStatuses.php - Returns an XML formatted file containing information from the gStatuses table
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * gObjectView.php - A list of all objects
+ * gLogView.php - An overview of a specific object
+ * SNR.jpgraph.php - A file utilizing JPGraph for generating a report on Quality, Signal and Noise
+ * TRX.jpgraph.php - A file utilizing JPGraph for generating a report on transmission data
+ * gLogSNR.xml.php - A XML-formatted file containing Quality, Signal and Noise
+ * gLogTRX.xml.php - A XML-formatted file containing transmission data
