@@ -34,7 +34,7 @@ The following script is run on an Ubiquti device, and draws its information from
   # `iwconfig` - Access Point MAC-address, ESSID, Rate
   # `iwlist` - Peer MAC-address, Quality, Signal and Noise
 
- * `grep`, `cut`, `sed`, `cat` and `wc` is used to format the information into a HTTP format string
+`grep`, `cut`, `sed`, `cat` and `wc` is used to format the information into a HTTP format string
 
 Finally the `wget` utility is used to transfer the constructed string back to the server using a HTTP GET.
 
