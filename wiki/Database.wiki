@@ -10,11 +10,3 @@
   * gPerformances - Stores performance parameters controlling the color and width of the links
   * gProperties - Stores optional gObject parameters
   * gUsers - Stores users with username and password
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
