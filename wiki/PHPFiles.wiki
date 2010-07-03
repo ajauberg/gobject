@@ -21,9 +21,9 @@ The following PHP files are used:
 
  * gObjectView.php - A list of all objects
  * gLogView.php - An overview of a specific object
- * SNR.jpgraph.php - A file utilizing JPGraph for generating a report on Quality, Signal and Noise
+ * SNR.jpgraph.php - A file utilizing JPGraph for generating a report on Quality, Signal and Noise data
  * TRX.jpgraph.php - A file utilizing JPGraph for generating a report on transmission data
- * gLogSNR.xml.php - A XML-formatted file containing Quality, Signal and Noise
+ * gLogSNR.xml.php - A XML-formatted file containing Quality, Signal and Noise data
  * gLogTRX.xml.php - A XML-formatted file containing transmission data
 
 = update.php =
