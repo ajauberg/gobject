@@ -15,7 +15,7 @@ The following Linux utilities are used to create the HTTP GETs sent to the gObje
 The line below is added to the cron utility using the command 'crontabs -e'. The following actions are performed when running the line:
 
   # The file `ow.sh` is retrieved from a remote server every 5 minutes
-  # The file is placed in the `/tmp/` directory, and made executable
+  # The file is located as `/tmp/ow.sh`, and made executable
   # The file is then executed locally in the unit and finally deleted
 
 {{{
