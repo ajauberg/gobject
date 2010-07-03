@@ -4,7 +4,7 @@
 
 The file 'index.html' is the starting point for the user. The file reads its data from the following files:
 
- * [PHPFiles `gObjects.php`] for drawing the wireless nodes
+ * `[PHPFiles gObjects.php]` for drawing the wireless nodes
  * [PHPFiles `gLinks.php`] for drawing the links between the wireless nodes
  * [PHPFiles `gLogs.php`] for detecting when to refresh the map status
 
