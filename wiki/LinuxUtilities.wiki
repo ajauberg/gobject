@@ -4,15 +4,15 @@
 
 The following Linux utilities are used to create the HTTP GETs sent to the gObject Management System:
 
-  # Linux shell is used for running a script
+ * Linux shell is used for running a script
 
-  # cron is calling the script at a fixed interval
+ * `cron` is calling the script at a fixed interval
 
-  # ifconfig, iwconfig and iwlist is used to retrieve the information
+ * `ifconfig`, `iwconfig` and `iwlist` is used to retrieve the information
 
-  # grep, cut, sed, cat and wc is used to format the information into a HTTP format string
+ * grep, cut, sed, cat and wc is used to format the information into a HTTP format string
 
-  # wget is used to transfer the string back to the server
+ * wget is used to transfer the string back to the server
 
 = cron =
 
