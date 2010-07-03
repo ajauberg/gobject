@@ -36,7 +36,7 @@ The following script is run locally, and draws its information from the followin
 
 `grep`, `cut`, `sed`, `cat` and `wc` is used to format the information into a HTTP format string
 
-Finally the `wget` utility is used to transfer the constructed string back to the server using a HTTP GET.
+Finally the `wget` utility is used to transfer the constructed string back to the server using a HTTP GET. See the PHPFiles page for a description of the `update.php` file that receives the information.
 
 {{{
 #!/bin/sh
