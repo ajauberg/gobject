@@ -1,9 +1,0 @@
-#summary A description of the gObject Management System components.
-
-= Introduction =
-
-The gObject Management System consists of 3 main components:
-
-  # A [Map HTML page using Google Maps]. Fills in contents from XML-files implemented in [PHPFiles PHP].
-  # A [Database MySQL database] storing the management information
-  # A set of [LinuxUtilities Linux scripts] collecting management information from the wireless nodes
