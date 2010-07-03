@@ -28,7 +28,7 @@ The line below is added to the cron utility using the command 'crontabs -e'. The
 
 = ow.sh =
 
-The following script is run on an Ubiquti device, and draws its information from the following Linux utilities:
+The following script is run locally, and draws its information from the following Linux utilities:
 
   # `ifconfig` - Packets, Collisions and Bytes
   # `iwconfig` - Access Point MAC-address, ESSID, Rate
