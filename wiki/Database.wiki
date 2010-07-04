@@ -11,6 +11,16 @@
   * gProperties - Stores optional gObject parameters
   * gUsers - Stores users with username and password
 
+  * gLogTRXDays - Stores transmission data on a 36 hours basis
+  * gLogTRXWeeks - Stores transmission data on a 10 days basis
+  * gLogTRXMonths - Stores transmission data on a 6 weeks basis
+  * gLogTRXYears - Stores transmission data on a 18 months basis
+
+  * gLogSNRDays - Stores Signal, Noise and Quality data on a 36 hours basis
+  * gLogSNRWeeks - Stores Signal, Noise and Quality data on a 10 days basis
+  * gLogSNRMonths - Stores Signal, Noise and Quality data on a 6 weeks basis
+  * gLogTRXYears - Stores Signal, Noise and Quality data on a 18 months basis
+
 = gClasses =
 
 {{{
@@ -133,4 +143,3 @@ INSERT INTO `gStatuses` (`id`, `Name`, `Color`, `HTMLColorCode`, `MarkerColorCod
 (5, 'Critical', 'Red', '#FF0000', '010', '86400'),
 (6, 'Down', 'Blue', '#000000', '149', '604800');
 }}}
-
