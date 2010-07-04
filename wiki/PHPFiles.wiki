@@ -12,8 +12,8 @@ The following PHP files are used:
  * gProperties.inc.php - A class for modifying additional properties in the gProperties table
 
  * gClasses.php - Returns an XML formatted file containing information from the gClasses table
- * gObjects.php - Returns an XML formatted file containing information from the gObjects table
- * gLinks.php - Returns an XML formatted file containing information from the gLinks table
+ * gObjects.php - Returns an XML formatted file containing information from the gObjects and gClasses tables
+ * gLinks.php - Returns an XML formatted file containing information from the gLinks, gObjects and gPerformances table
  * gLogs.php - Returns an XML formatted file containing information from the gLogs table
  * gPerformances.php - Returns an XML formatted file containing information from the gPerformances table
  * gProperties.php - Returns an XML formatted file containing information from the gProperties table
