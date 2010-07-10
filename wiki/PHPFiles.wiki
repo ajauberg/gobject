@@ -11,7 +11,7 @@ The following PHP files are used:
 
  * gCObjects.inc.php - A class for reading and updating the gObjects table
  * gCProperties.inc.php - A class for reading and updating the gLogs table
- * gCLogs.inc.php - Classes for updating and compressing the gLogs, gSNRLogs and gTRXLogs tables
+ * gCLogs.inc.php - Classes for updating and compressing the gLogs, gLogSNR and gLogTRX tables
  * gCStatuses.inc.php - A class for reading and updating the gStatuses table
  * gCPerformances.inc.php - A class for reading and updating the gPerformances table
 
