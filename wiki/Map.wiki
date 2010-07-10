@@ -10,7 +10,7 @@ The file 'index.html' is the starting point for the user. The file reads its dat
 
 = index.html =
 
-Be sure to have a valid Google Maps key before placing the file below on a new server:
+Be sure to have a valid Google Maps key before placing the file below on a new server. Visit this page to sign up for a valid key:
 
 http://code.google.com/intl/no/apis/maps/signup.html
 
