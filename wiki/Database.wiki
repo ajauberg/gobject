@@ -2,7 +2,7 @@
 
 = Introduction =
 
-  * gClasses - Stores icons and graphic representation
+  * gClasses - Stores icons and graphical representation
   * gObjects - Stores physical instances
   * gLinks - Stores links between gObjects
   * gStatuses - Stores status parameters controlling the node status, color and inactivity timeouts
