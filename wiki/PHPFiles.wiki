@@ -9,26 +9,27 @@ The following PHP files are used:
 || icon.php || Creates the icon used in the Google Maps marker ||
 || config.inc.php || Reads the configuration file ||
 
- * gCObjects.inc.php - A class for reading and updating the gObjects table
- * gCProperties.inc.php - A class for reading and updating the gLogs table
- * gCLogs.inc.php - Classes for updating and compressing the gLogs, gLogSNR and gLogTRX tables
- * gCStatuses.inc.php - A class for reading and updating the gStatuses table
- * gCPerformances.inc.php - A class for reading and updating the gPerformances table
+|| gCObjects.inc.php || A class for reading and updating the gObjects table ||
+|| gCProperties.inc.php || A class for reading and updating the gLogs table ||
+|| gCStatuses.inc.php || A class for reading and updating the gStatuses table ||
+|| gCPerformances.inc.php || A class for reading and updating the gPerformances table ||
 
- * gClasses.xml.php - Returns an XML formatted file containing information from the gClasses table
- * gObjects.xml.php - Returns an XML formatted file containing information from the gObjects and gClasses tables
- * gLinks.xml.php - Returns an XML formatted file containing information from the gLinks, gObjects and gPerformances tables
- * gLogs.xml.php - Returns an XML formatted file containing information from the gLogs table
- * gPerformances.xml.php - Returns an XML formatted file containing information from the gPerformances table
- * gProperties.xml.php - Returns an XML formatted file containing information from the gProperties table
- * gStatuses.xml.php - Returns an XML formatted file containing information from the gStatuses table
+|| gCLogs.inc.php || Classes for updating and compressing the gLogs, gLogSNR and gLogTRX tables ||
 
- * gObjectView.php - A list of all objects
- * gLogView.php - An overview of a specific object
- * SNR.jpgraph.php - A file utilizing JPGraph for generating a report on Quality, Signal and Noise data
- * TRX.jpgraph.php - A file utilizing JPGraph for generating a report on transmission data
- * gLogSNR.xml.php - A XML-formatted file containing Quality, Signal and Noise data
- * gLogTRX.xml.php - A XML-formatted file containing transmission data
+|| gClasses.xml.php || Returns an XML formatted file containing information from the gClasses table ||
+|| gObjects.xml.php || Returns an XML formatted file containing information from the gObjects and gClasses tables ||
+|| gLinks.xml.php || Returns an XML formatted file containing information from the gLinks, gObjects and gPerformances tables ||
+|| gLogs.xml.php || Returns an XML formatted file containing information from the gLogs table ||
+|| gPerformances.xml.php || Returns an XML formatted file containing information from the gPerformances table ||
+|| gProperties.xml.php || Returns an XML formatted file containing information from the gProperties table ||
+|| gStatuses.xml.php || Returns an XML formatted file containing information from the gStatuses table ||
+
+|| gObjectView.php || A list of all objects ||
+|| gLogView.php || An overview of a specific object ||
+|| SNR.jpgraph.php || A file utilizing JPGraph for generating a report on Quality, Signal and Noise data ||
+|| TRX.jpgraph.php || A file utilizing JPGraph for generating a report on transmission data ||
+|| gLogSNR.xml.php || A XML-formatted file containing Quality, Signal and Noise data ||
+|| gLogTRX.xml.php || A XML-formatted file containing transmission data ||
 
 = update.php =
 
