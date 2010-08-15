@@ -4,10 +4,10 @@
 
 The following PHP files are used:
 
- * update.php - Called from the wireless nodes with node data
- * sync.php - Called at regular intervals to update node and link status
- * icon.php - Creates the icon used in the Google Maps marker
- * config.inc.php - Reads the configuration file
+|| update.php || Called from the wireless nodes with node data ||
+|| sync.php || Called at regular intervals to update node and link status ||
+|| icon.php || Creates the icon used in the Google Maps marker ||
+|| config.inc.php || Reads the configuration file ||
 
  * gCObjects.inc.php - A class for reading and updating the gObjects table
  * gCProperties.inc.php - A class for reading and updating the gLogs table
