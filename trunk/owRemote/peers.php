@@ -1,11 +1,11 @@
 <?php
 require 'config.inc.php';
 
-$AP	=$_GET['AP'];
-$MAC	=$_GET['MAC'];
-$SIG	=$_GET['SIG'];
-$NOISE	=$_GET['NOISE'];
-$QUAL	=$_GET['QUAL'];
+$AP	=$_REQUEST['AP'];
+$MAC	=$_REQUEST['MAC'];
+$SIG	=$_REQUEST['SIG'];
+$NOISE	=$_REQUEST['NOISE'];
+$QUAL	=$_REQUEST['QUAL'];
 $QUAL	=$SIG-$NOISE;
 $dt	=DST();
 $REMOTE_ADDR=$_SERVER['REMOTE_ADDR'];

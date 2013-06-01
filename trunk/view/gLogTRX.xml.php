@@ -26,9 +26,9 @@ CREATE TABLE IF NOT EXISTS `gLogTRXxxxs` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 */
-if ($_GET['table']) $table=$_GET['table']; else $table="gLogTRXDays";
-if ($_GET['oid']) $refOid=$_GET['oid']; else $refOid=0;
-if ($_GET['order']) $order=$_GET['order']; else $order="id";
+if ($_REQUEST['table']) $table=$_REQUEST['table']; else $table="gLogTRXDays";
+if ($_REQUEST['oid']) $refOid=$_REQUEST['oid']; else $refOid=0;
+if ($_REQUEST['order']) $order=$_REQUEST['order']; else $order="id";
 
 $q="SELECT * ".
 "FROM $table ";

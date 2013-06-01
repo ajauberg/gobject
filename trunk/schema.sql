@@ -246,6 +246,8 @@ CREATE TABLE IF NOT EXISTS `gLogYears` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 ;
 
+-- --------------------------------------------------------
+
 --
 -- Table structure for table `gObjects`
 --

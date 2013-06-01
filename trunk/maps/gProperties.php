@@ -11,8 +11,8 @@ CREATE TABLE IF NOT EXISTS `gProperties` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
 */
 $q="SELECT * FROM gProperties";
-if (isset($_GET['oid'])) {	// Check for oid=... in URL
-	$oid=$_GET['oid'];
+if (isset($_REQUEST['oid'])) {	// Check for oid=... in URL
+	$oid=$_REQUEST['oid'];
 	if ($oid!="") {
 		$q.=" WHERE refOid=$oid";
 	}
