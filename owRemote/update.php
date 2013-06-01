@@ -1,10 +1,4 @@
 <?php
-//
-// Example URL: 
-//
-// http://www.aiwisp.net/owRemote/update.php?IP=192.168.183.51&AP=00:15:6D:A6:19:B9&ESSID=AI_WISP,Bleikoya&UPTIME=584299&CLI=1&RATE=0&MAC[]=00:15:6D:A6:19:99&QUAL[]=5&SIG[]=-91&NOISE[]=-96&MAC[]=00:18:39:BC:13:CA&QUAL[]=0&SIG[]=-96&NOISE[]=-96&MAC[]=00:C0:CA:18:80:46&QUAL[]=0&SIG[]=-96&NOISE[]=-96
-// http://www.aiwisp.net/owRemote/update.php?IP=192.168.101.8&AP=00:14:BF:E3:17:ED&ESSID=OpenWrt&UPTIME=601057&CLI=2&RATE=54&RXP=378326&RXe=0&RXd=0&RXo=0&RXf=0&TXP=194191&TXe=0&TXd=0&TXo=0&TXc=0&TXco=0&TXq=0&MAC[]=00:90:D0:EB:DB:47&QUAL[]=5/5&SIG[]=-46&NOISE[]=-96&MAC[]=00:1A:70:6E:D3:62&QUAL[]=2/5&SIG[]=-74&NOISE[]=-96&MAC[]=00:15:6D:A6:16:C8&QUAL[]=2/5&SIG[]=-79&NOISE[]=-96
-//
 
 require('config.inc.php');
 
