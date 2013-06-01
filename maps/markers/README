@@ -1,0 +1,11 @@
+The included is a script which is free to use to generate colored numbered markers using php and the free set of colored markers found here http://people.vanderbilt.edu/~sam.kuhn/gmaps/index.html
+
+usage example:
+http://myserver/markers/numbered_marker.php?image=pushpins/webhues/087.png&text=99
+http://myserver/markers/numbered_marker.php?image=pushpins/webhues/087.png&text=a
+http://myserver/markers/numbered_marker.php?image=pushpins/webhues/087.png&text=101
+
+
+Script by Ali Mohammad and Alex Gruenstein
+
+
