@@ -15,7 +15,7 @@ Script by Ali Mohammad and Alex Gruenstein
 header("Content-type: image/png");
 
 $oid = 0;
-if ($_GET['oid']) $oid = $_GET['oid'];
+if ($_REQUEST['oid']) $oid = $_REQUEST['oid'];
 if ($_POST['oid']) $oid = $_POST['oid'];
 
 $q=	"SELECT Image,gObjects.Name as Name ".
@@ -35,7 +35,7 @@ $im = imagecreatefrompng($image_name);
 imageAlphaBlending($im, true);
 imageSaveAlpha($im, true);
 
-//$string = $_GET['text'];
+//$string = $_REQUEST['text'];
 //$orange = imagecolorallocate($im, 220, 210, 60);
 $black = imagecolorallocate($im, 0, 0, 0);
 

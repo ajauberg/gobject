@@ -1,9 +1,9 @@
 <?require 'config.inc.php';
 
-$AP	=$_GET['AP'];
-$MAC	=$_GET['MAC'];
-$dBm	=$_GET['dBm'];
-$dt	=$_GET['dt'];
+$AP	=$_REQUEST['AP'];
+$MAC	=$_REQUEST['MAC'];
+$dBm	=$_REQUEST['dBm'];
+$dt	=$_REQUEST['dt'];
 
 $q="UPDATE gObjects SET LastContact='$dt' WHERE Ethernet='$AP'";
 $r=mysql_query($q) or die(mysql_error());

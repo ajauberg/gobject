@@ -13,10 +13,10 @@ CREATE TABLE IF NOT EXISTS `gLogSNRxxxs` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 ;
 */
-if ($_GET['MAC']) $MAC=$_GET['MAC']; else $MAC="";
-if ($_GET['table']) $table=$_GET['table']; else $table="gLogDays";
-if ($_GET['oid']) $refOid=$_GET['oid']; else $refOid=0;
-if ($_GET['order']) $order=$_GET['order']; else $order="id";
+if ($_REQUEST['MAC']) $MAC=$_REQUEST['MAC']; else $MAC="";
+if ($_REQUEST['table']) $table=$_REQUEST['table']; else $table="gLogDays";
+if ($_REQUEST['oid']) $refOid=$_REQUEST['oid']; else $refOid=0;
+if ($_REQUEST['order']) $order=$_REQUEST['order']; else $order="id";
 
 $q="SELECT * ".
 "FROM $table ";

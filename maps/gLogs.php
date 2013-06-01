@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `gLogs` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 */
-if ($_GET['lastLogId']) $lastLogId=$_GET['lastLogId']; 
+if ($_REQUEST['lastLogId']) $lastLogId=$_REQUEST['lastLogId']; 
 else { 
 	$lastLogId=0;
 	$q="SELECT MAX(id) AS id FROM gLogs";
@@ -22,8 +22,8 @@ else {
 }
 
 $q="SELECT * FROM gLogs ";
-if (isset($_GET['oid'])) {	// Check for oid=... in URL
-	$oid=$_GET['oid'];
+if (isset($_REQUEST['oid'])) {	// Check for oid=... in URL
+	$oid=$_REQUEST['oid'];
 	if ($oid!="") {
 		$q.="WHERE refOid=$oid ";
 	}

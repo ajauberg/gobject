@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-$oid=$_GET['oid'];
+$oid=$_REQUEST['oid'];
 
 $show_msg = <<<MSG
 <h1>Signal/Noise graphs for $oid</h1>

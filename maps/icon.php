@@ -3,7 +3,7 @@ require 'config.inc.php';
 
 header("Content-type: image/png");
 
-if ($_GET['oid']) $oid=$_GET['oid']; else $oid=0;
+if ($_REQUEST['oid']) $oid=$_REQUEST['oid']; else $oid=0;
 
 $q=	"SELECT gObjects.Name as Name,Image,Shadow,Color,HTMLColorCode,MarkerColorCode ".
 	"FROM gObjects,gClasses,gStatuses ".
@@ -40,7 +40,7 @@ if (!$im) {
 imageAlphaBlending($im, true);
 imageSaveAlpha($im, true);
 
-//$string = $_GET['text'];
+//$string = $_REQUEST['text'];
 //$orange = imagecolorallocate($im, 220, 210, 60);
 //$colorcodes=sscanf($htmlcolorcode, '#%2x%2x%2x');
 //$im=imagecolorallocate($im,$colorcodes[0],$colorcodes[1],$colorcodes[2]);

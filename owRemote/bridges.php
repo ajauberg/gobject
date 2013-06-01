@@ -1,12 +1,12 @@
 <?require 'config.inc.php';
 
-$AP	=$_GET['AP'];
-$MAC	=$_GET['MAC'];
-$QUAL	=$_GET['QUAL'];
-$SIG	=$_GET['SIG'];
-$NOISE	=$_GET['NOISE'];
-$UPTIME	=$_GET['UPTIME'];
-$CLI	=$_GET['CLI'];
+$AP	=$_REQUEST['AP'];
+$MAC	=$_REQUEST['MAC'];
+$QUAL	=$_REQUEST['QUAL'];
+$SIG	=$_REQUEST['SIG'];
+$NOISE	=$_REQUEST['NOISE'];
+$UPTIME	=$_REQUEST['UPTIME'];
+$CLI	=$_REQUEST['CLI'];
 $dt	=DST();
 
 $q="UPDATE gObjects SET LastContact='$dt' WHERE Ethernet='$AP'";

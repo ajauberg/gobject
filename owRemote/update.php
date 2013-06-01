@@ -4,12 +4,12 @@ require('config.inc.php');
 
 $REMOTE_ADDR=$_SERVER['REMOTE_ADDR'];
 
-$IP=	$_GET['IP'];
-$AP=	$_GET['AP'];
-$ESSID=	$_GET['ESSID'];
-$RATE=	$_GET['RATE'];		if (!$RATE) $RATE=0;
-$UPTIME=$_GET['UPTIME'];	if (!$UPTIME) $UPTIME=0;
-$CLI=	$_GET['CLI'];		if (!$CLI) $CLI=0;
+$IP=	$_REQUEST['IP'];
+$AP=	$_REQUEST['AP'];
+$ESSID=	$_REQUEST['ESSID'];
+$RATE=	$_REQUEST['RATE'];	if (!$RATE) $RATE=0;
+$UPTIME=$_REQUEST['UPTIME'];	if (!$UPTIME) $UPTIME=0;
+$CLI=	$_REQUEST['CLI'];	if (!$CLI) $CLI=0;
 
 $dt	=DST();
 
@@ -72,10 +72,10 @@ echo "q: ".$q."<br>";
 $r=mysql_query($q) or die(mysql_error());
 
 /*
-$ESSID=	$_GET['ESSID'];
-$RATE=	$_GET['RATE'];
-$UPTIME=$_GET['UPTIME'];
-$CLI=	$_GET['CLI'];
+$ESSID=	$_REQUEST['ESSID'];
+$RATE=	$_REQUEST['RATE'];
+$UPTIME=$_REQUEST['UPTIME'];
+$CLI=	$_REQUEST['CLI'];
 
 $prop=new CProperties();
 
@@ -85,21 +85,21 @@ $prop->update($new,$oid,'UPTIME',$UPTIME);
 $prop->update($new,$oid,'CLI',$CLI);
 */
 
-$RXP=	$_GET['RXP'];	// RX packets
-$RXe=	$_GET['RXe'];	// RX errors
-$RXd=	$_GET['RXd'];	// RX dropped
-$RXo=	$_GET['RXo'];	// RX overruns
-$RXf=	$_GET['RXf'];	// RX frames
-$RXb=	$_GET['RXb'];	// RX bytes
+$RXP=	$_REQUEST['RXP'];	// RX packets
+$RXe=	$_REQUEST['RXe'];	// RX errors
+$RXd=	$_REQUEST['RXd'];	// RX dropped
+$RXo=	$_REQUEST['RXo'];	// RX overruns
+$RXf=	$_REQUEST['RXf'];	// RX frames
+$RXb=	$_REQUEST['RXb'];	// RX bytes
 
-$TXP=	$_GET['TXP'];	// TX packets
-$TXe=	$_GET['TXe'];	// TX errors
-$TXd=	$_GET['TXd'];	// TX dropped
-$TXo=	$_GET['TXo'];	// TX overruns
-$TXc=	$_GET['TXc'];	// TX carriers
-$TXco=	$_GET['TXco'];	// TX collisions
-$TXq=	$_GET['TXq'];	// TX queue length
-$TXb=	$_GET['TXb'];	// TX bytes
+$TXP=	$_REQUEST['TXP'];	// TX packets
+$TXe=	$_REQUEST['TXe'];	// TX errors
+$TXd=	$_REQUEST['TXd'];	// TX dropped
+$TXo=	$_REQUEST['TXo'];	// TX overruns
+$TXc=	$_REQUEST['TXc'];	// TX carriers
+$TXco=	$_REQUEST['TXco'];	// TX collisions
+$TXq=	$_REQUEST['TXq'];	// TX queue length
+$TXb=	$_REQUEST['TXb'];	// TX bytes
 
 $table="gLogTRXDays";
 $q="INSERT $table(refOid,Timestamp,RATE,UPTIME,CLI,RXP,RXe,RXd,RXo,RXf,RXb,TXP,TXe,TXd,TXo,TXc,TXco,TXq,TXb) ".
@@ -107,10 +107,10 @@ $q="INSERT $table(refOid,Timestamp,RATE,UPTIME,CLI,RXP,RXe,RXd,RXo,RXf,RXb,TXP,T
 echo "q: $q<br>";
 $r=mysql_query($q) or die(mysql_error());
 
-$MACARR		=$_GET['MAC'];
-$SIGARR		=$_GET['SIG'];
-$NOISEARR	=$_GET['NOISE'];
-$QUALARR	=$_GET['QUAL'];
+$MACARR		=$_REQUEST['MAC'];
+$SIGARR		=$_REQUEST['SIG'];
+$NOISEARR	=$_REQUEST['NOISE'];
+$QUALARR	=$_REQUEST['QUAL'];
 
 for ($i=0;$i<count($MACARR);$i++)
 {
