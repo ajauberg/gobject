@@ -7,7 +7,7 @@ $table=$_GET['table'];
 $dateformat=$_GET['dateformat'];
 $xtitle=$_GET['xtitle'];
 
-$xmlobj = simplexml_load_file("http://www.aiwisp.net/maps/gLogSNR.xml.php?oid=$oid&table=$table");
+$xmlobj = simplexml_load_file("gLogSNR.xml.php?oid=$oid&table=$table");
 foreach ($xmlobj->gLog as $gLog) {
   $datay[] = intval($gLog[SIG]);
   $datay2[] = intval($gLog[NOISE]);

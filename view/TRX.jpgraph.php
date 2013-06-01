@@ -7,7 +7,7 @@ $table=$_GET['table'];
 $dateformat=$_GET['dateformat'];
 $xtitle=$_GET['xtitle'];
 
-$xmlobj = simplexml_load_file("http://www.aiwisp.net/maps/gLogTRX.xml.php?oid=$oid&table=$table");
+$xmlobj = simplexml_load_file("gLogTRX.xml.php?oid=$oid&table=$table");
 foreach ($xmlobj->gLog as $gLog) {
   $datay[] = intval($gLog[RXb]);
   $datay2[] = intval($gLog[TXb]);
