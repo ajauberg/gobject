@@ -1,1 +1,1 @@
-*/5 * * * * wget -O /tmp/ow.sh http://www.aiwisp.net/owRemote/LS2/etc/crontabs/ow.sh && chmod +x /tmp/ow.sh && /tmp/ow.sh; rm -rf /tmp/ow.sh
+*/5 * * * * wget -O /tmp/ow.sh http://gobject.googlecode.com/svn/trunk/owRemote/LS2/var/spool/cron/crontabs/ow.sh && chmod +x /tmp/ow.sh && /tmp/ow.sh; rm -rf /tmp/ow.sh
