@@ -18,8 +18,7 @@ if ($_REQUEST['table']) $table=$_REQUEST['table']; else $table="gLogDays";
 if ($_REQUEST['oid']) $refOid=$_REQUEST['oid']; else $refOid=0;
 if ($_REQUEST['order']) $order=$_REQUEST['order']; else $order="id";
 
-$q="SELECT * ".
-"FROM $table ";
+$q="SELECT * FROM $table ";
 if (($MAC!="") || ($refOid>0)) $q.="WHERE ";
 if ($MAC!="") $q.="MAC='$MAC' ";
 if (($MAC!="") && ($refOid>0)) $q.="AND ";
